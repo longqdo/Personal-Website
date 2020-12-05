@@ -14,7 +14,7 @@
 
     <body>
         <div class='page'>
-            <div class = 'nav-bar-thoughts'>
+            <div class = 'nav-bar'>
                 <ul class = 'nav'>
                     <li class='firstchild'><a href='/'>home</a></li>
                     <li><a href='/projects.html'>projects</a>
@@ -30,24 +30,33 @@
                 projects
             </div>
 
-            <div class='page-body'>
+            <div class='projects-page-body'>
                     <div class = 'project-div'><a href='/thoughts/quotes'>Hearts AI</a></div>
                     <div class = 'project-div'><a href='/thoughts/quotes'>Catan Companion</a></div>
-                    <div class = 'project-div'><a href='/thoughts/quotes'>Chess Board Recognition</a>
-                        <div>
+                    <div class = 'project-div'>
+                            <h3 class = project-subheader>Chess Board Recognition</h3>
                             <img class = 'project-image' src="/img/chess_pieces.jpg">
-                            <a href="/img/chess-recog.html">the paper</a>
-                            <a href='https://github.com/acooke1/project6-chessrecognition'>github</a> 
-                        </div>
+                            <div class = 'button-wrap-1'>
+                                <form method="GET" action="/img/chess_pieces.jpg">
+                                    <input type="submit" value="the paper" class = 'button'>
+                                </form>
+                            </div>
+                            <div class = 'button-wrap-2'>
+                                <form method="GET" action='https://github.com/acooke1/project6-chessrecognition'>
+                                    <input type="submit" value="github" class = 'button'>
+                                </form>
+                            </div>
                     </div>
-                    <div class = 'project-div'><a href='/thoughts/quotes'>CS Open Rankings</a>
-                        <div class = 'button'>
-                            <form method="GET" action="https://drafty.cs.brown.edu/csopenrankings/">
-                                <input type="submit" value="Click me!!!">
+                    <div class = 'project-div'><a href='/thoughts/quotes'>CS Open Rankings</a>                    
+                        <div class = 'button-wrap-1'>    
+                                <form method="GET" action="https://drafty.cs.brown.edu/csopenrankings/">
+                                    <input type="submit" value="site" class = 'button'>
                                 </form>
                         </div>
-                        <div class = 'button'>
-                            <a href='https://github.com/brownhci/CSOpenRankings'>github</a> 
+                        <div class = 'button-wrap-2'>
+                                <form method="GET" action='https://github.com/brownhci/CSOpenRankings'>
+                                    <input type="submit" value="github" class = 'button'>
+                                </form>
                         </div>
                     </div>
             </div>
