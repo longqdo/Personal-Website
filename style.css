@@ -5,6 +5,7 @@ html, body {
     align-items: center;
     justify-content: center;
     height: 100%;
+    width: 100%;
     margin: 0px;
     padding: 0px;
     font-family: 'Roboto Mono', monospace;
@@ -97,6 +98,17 @@ html, body {
     
 }
 
+.project-subheader {
+    color: rgb(187, 40, 131);
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin: 2px;
+    font-size: 3vmin;
+    background-color: rgb(243, 235, 126);
+    border-radius: 10px;
+}
+
 .page-body {
     grid-column: 2/4;
     grid-row: 3;
@@ -136,12 +148,14 @@ html, body {
     margin: .3rem;
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 8% 60% 16% 16%;
+    grid-template-rows: 8% 62% 8% 18%;
+    gap: 10px;
 
-}
+} 
 
 h3 {
     margin-top: 0;
+    background-color: rgb(243, 235, 126);
 }
 
 .project-subheader {
@@ -152,23 +166,23 @@ h3 {
 .button-wrapper-1 {
     grid-row: 3;
     grid-column: 1;
-    text-align: center;
-    display: block;
-}
-
-form {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: left;
+    margin: 5px;
 }
 
 .button-wrapper-2 {
     grid-row: 3;
     grid-column: 2;
-    display: flex;
-    justify-content: center;
+    margin: 5px;
 }
+
+input {
+    width:150px;
+    display:block;
+    margin: 1px auto;
+    padding: 2px -2px
+}
+
+
 
 .project-image {
     width: 100%;
@@ -183,28 +197,13 @@ form {
     object-fit: cover;
 }
 
-/* .button {
-    font: bold 11px Arial;
-    text-decoration: none;
-    background-color: #EEEEEE;
-    color: #333333;
-    padding: 2px 6px 2px 6px;
-    border-top: 1px solid #CCCCCC;
-    border-right: 1px solid #333333;
-    border-bottom: 1px solid #333333;
-    border-left: 1px solid #CCCCCC;
-} */
-
 .button {
-    background-color: #ccc;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
+    background-color: rgb(187, 40, 131);;
     border-radius:6px;
-    color: #fff;
-    font-family: 'Oswald';
-    font-size: 20px;
+    color: rgb(243, 235, 126);
+    font-size:2.6vmin;
+    font-family: 'Roboto Mono', monospace;
     text-decoration: none;
-    cursor: poiner;
     border:none;
 }
 
@@ -213,7 +212,6 @@ form {
     grid-row: 3;
     background-color: rgb(187, 203, 249);
     width: 100%;
-    
     border-radius: 1rem;
     display: flex;
 }
