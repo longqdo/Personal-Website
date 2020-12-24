@@ -430,6 +430,7 @@ li:hover{
     border-radius: 1rem;
     width: 27vmin;
     height: auto;
+    image-orientation: from-image;
 }
 
 .footer {
