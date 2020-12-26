@@ -169,6 +169,7 @@ html, body {
     gap: .2rem;
     float:left;
     margin-bottom: 1.5vmin;
+    height: 55vh
 }
 
 .ranking-div > .review {
@@ -428,7 +429,7 @@ li:hover{
 
 .profile-pic {
     border-radius: 1rem;
-    width: 27vmin;
+    width: 14vw;
     height: auto;
     image-orientation: from-image;
 }
