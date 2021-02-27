@@ -84,6 +84,6 @@ function draw() {
         random(7*(windowWidth/8)-offset, 8*(windowWidth/8)), random(height)
       );
     }
-    frameRate(2);
+    frameRate(1);
   }
   
