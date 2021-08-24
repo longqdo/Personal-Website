@@ -66,10 +66,10 @@ html, body {
 
 .bio {
     vertical-align: top ;
-    font-size: 1.83vmin;
+    font-size: 1.8vmin;
     background-color: #eae2f7;
     justify-content: center;
-    padding: 1rem;
+    padding: 1.3rem;
     border-radius: 1rem;
     margin: .6rem;
     word-wrap:break-word
